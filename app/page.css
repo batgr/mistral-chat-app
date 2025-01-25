@@ -1,0 +1,26 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.input{
+    border: 0 solid black;
+    background: #dad9d9;
+    border-radius: 5px;
+    padding: 5px 5px 60px 5px;
+    width: 50%;
+    outline: none;
+    text-align: start;
+
+
+}
+
+.input:focus {
+    outline: none;
+
+    box-shadow: none;
+
+}

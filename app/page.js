@@ -1,10 +1,12 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+
+import Input from "@/app/Components/Input";
+import "./page.css";
+
 
 export default function Home() {
   return (
-    <div>
-
-    </div>
+    <main className="main">
+      <Input/>
+    </main>
   );
 }
